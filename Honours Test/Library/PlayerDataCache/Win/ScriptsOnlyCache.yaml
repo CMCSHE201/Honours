@@ -16,8 +16,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -91,27 +93,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10190}
     - Class: 114
-      Script: {instanceID: 10250}
+      Script: {instanceID: 10252}
     - Class: 114
-      Script: {instanceID: 10254}
+      Script: {instanceID: 10256}
     - Class: 114
-      Script: {instanceID: 10608}
+      Script: {instanceID: 10610}
     - Class: 114
-      Script: {instanceID: 10870}
+      Script: {instanceID: 10872}
     - Class: 114
-      Script: {instanceID: 10902}
+      Script: {instanceID: 10904}
     - Class: 114
-      Script: {instanceID: 11032}
+      Script: {instanceID: 10952}
     - Class: 114
-      Script: {instanceID: 11116}
+      Script: {instanceID: 11036}
     - Class: 114
-      Script: {instanceID: 11132}
+      Script: {instanceID: 11120}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11136}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 11386}
     - Class: 114
-      Script: {instanceID: 207874}
+      Script: {instanceID: 11418}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -206,27 +208,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10190}
     - Class: 114
-      Script: {instanceID: 10250}
+      Script: {instanceID: 10218}
     - Class: 114
-      Script: {instanceID: 10254}
+      Script: {instanceID: 10252}
     - Class: 114
-      Script: {instanceID: 10608}
+      Script: {instanceID: 10256}
     - Class: 114
-      Script: {instanceID: 10870}
+      Script: {instanceID: 10610}
     - Class: 114
-      Script: {instanceID: 10902}
+      Script: {instanceID: 10872}
     - Class: 114
-      Script: {instanceID: 11032}
+      Script: {instanceID: 10904}
     - Class: 114
-      Script: {instanceID: 11116}
+      Script: {instanceID: 11036}
     - Class: 114
-      Script: {instanceID: 11132}
+      Script: {instanceID: 11120}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11136}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 11386}
     - Class: 114
-      Script: {instanceID: 179236}
+      Script: {instanceID: 11418}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -289,15 +291,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9882}
     - Class: 114
-      Script: {instanceID: 10254}
+      Script: {instanceID: 10256}
     - Class: 114
-      Script: {instanceID: 10588}
-    - Class: 114
-      Script: {instanceID: 11032}
+      Script: {instanceID: 10590}
     - Class: 114
       Script: {instanceID: 11036}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11040}
+    - Class: 114
+      Script: {instanceID: 11386}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -338,15 +340,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9882}
     - Class: 114
-      Script: {instanceID: 10254}
+      Script: {instanceID: 10256}
     - Class: 114
-      Script: {instanceID: 10588}
+      Script: {instanceID: 10590}
     - Class: 114
-      Script: {instanceID: 11032}
+      Script: {instanceID: 11036}
     - Class: 114
-      Script: {instanceID: 11250}
+      Script: {instanceID: 11254}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11386}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -556,6 +558,12 @@ ScriptsOnlyBuild:
     className: AmmoScript
   - hash:
       serializedVersion: 2
+      Hash: f963b08b2c2edebdf1225d419f1d156d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UAIGameManager
+  - hash:
+      serializedVersion: 2
       Hash: 34bf7f168cdb33d5db3126259a634948
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -704,6 +712,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BehaviourTreeScript
+  - hash:
+      serializedVersion: 2
+      Hash: f963b08b2c2edebdf1225d419f1d156d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BTGameManager
   - hash:
       serializedVersion: 2
       Hash: 3b760e6526e13f7504f59e210145899a
@@ -860,22 +874,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: f963b08b2c2edebdf1225d419f1d156d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UAIGameManager
-  - hash:
-      serializedVersion: 2
-      Hash: f963b08b2c2edebdf1225d419f1d156d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BTGameManager
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Gameplay UAI.unity
   - Assets/Scenes/Gameplay BT.unity
   - Assets/Scenes/HelpMenu.unity
-  playerPath: C:/Users/maxm2/Desktop/Honours/Honours Test/Honours Test.exe
+  playerPath: C:/Users/maxm2/Documents/GitHub/Honours/Honours Test/Honours Test.exe

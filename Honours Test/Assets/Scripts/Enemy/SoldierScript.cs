@@ -45,6 +45,8 @@ public class SoldierScript : MonoBehaviour
 
     public int barrierLevel = 0;
 
+    public ParticleSystem muzzleFlash;
+
     private NavMeshAgent myNavMeshAgent;
     // Start is called before the first frame update
     void Start()
@@ -56,6 +58,8 @@ public class SoldierScript : MonoBehaviour
         startLocation = transform.position;
 
         myNavMeshAgent = GetComponent<NavMeshAgent>();
+
+        myNavMeshAgent.Warp(startLocation);
 
         for (int i = 0; i < 3; i++)
         {
@@ -73,6 +77,11 @@ public class SoldierScript : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+        }
+
+        if (Vector3.Distance(transform.position, medLocation) < 5)
+        {
+            health = 100;
         }
 
         if (moved)
@@ -312,6 +321,7 @@ public class SoldierScript : MonoBehaviour
         float hitPlayer = Random.Range(1, 100);
 
         GetComponent<AudioSource>().Play();
+        muzzleFlash.Play();
 
         if (hitPlayer < (50 - Vector3.Distance(transform.position, playerObject.transform.position)))
         {

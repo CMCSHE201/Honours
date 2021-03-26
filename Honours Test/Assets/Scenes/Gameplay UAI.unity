@@ -315,6 +315,11 @@ PrefabInstance:
       propertyPath: barriers3.Array.data[2]
       value: 
       objectReference: {fileID: 180425861}
+    - target: {fileID: 8811729892089196530, guid: e79578ff2d1c2db4a87400471d22b734,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e79578ff2d1c2db4a87400471d22b734, type: 3}
 --- !u!1 &79456782
@@ -2536,6 +2541,11 @@ PrefabInstance:
       propertyPath: barriers3.Array.data[2]
       value: 
       objectReference: {fileID: 180425861}
+    - target: {fileID: 8811729892089196530, guid: e79578ff2d1c2db4a87400471d22b734,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e79578ff2d1c2db4a87400471d22b734, type: 3}
 --- !u!1001 &694718694
@@ -2950,7 +2960,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 618dff23f814f8640996030e878474f3, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3592,6 +3602,11 @@ PrefabInstance:
       propertyPath: barriers3.Array.data[2]
       value: 
       objectReference: {fileID: 180425861}
+    - target: {fileID: 8811729892089196530, guid: e79578ff2d1c2db4a87400471d22b734,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e79578ff2d1c2db4a87400471d22b734, type: 3}
 --- !u!1 &911467692
@@ -3862,6 +3877,11 @@ PrefabInstance:
       propertyPath: barriers3.Array.data[2]
       value: 
       objectReference: {fileID: 180425861}
+    - target: {fileID: 8811729892089196530, guid: e79578ff2d1c2db4a87400471d22b734,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e79578ff2d1c2db4a87400471d22b734, type: 3}
 --- !u!1 &924660534
@@ -4955,7 +4975,7 @@ PrefabInstance:
     - target: {fileID: 82712217391461128, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
         type: 3}
       propertyPath: m_Volume
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
@@ -6272,6 +6292,11 @@ PrefabInstance:
       propertyPath: barriers3.Array.data[2]
       value: 
       objectReference: {fileID: 180425861}
+    - target: {fileID: 8811729892089196530, guid: e79578ff2d1c2db4a87400471d22b734,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e79578ff2d1c2db4a87400471d22b734, type: 3}
 --- !u!1001 &1735927263
@@ -6490,7 +6515,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4bcf9ec88d872924eaf7d994b9fea8f5, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
