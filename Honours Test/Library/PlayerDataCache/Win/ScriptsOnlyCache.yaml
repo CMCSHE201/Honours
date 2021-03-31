@@ -16,10 +16,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -420,7 +418,7 @@ ScriptsOnlyBuild:
     className: ContrastStretch
   - hash:
       serializedVersion: 2
-      Hash: 150c2f0a88a5079655e33052fa9c6913
+      Hash: d1356ba6b6ee5f8c6a16358a091f7848
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoldierScript

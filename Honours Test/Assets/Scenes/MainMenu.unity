@@ -512,7 +512,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1589375453}
-        m_MethodName: PlayGameB
+        m_MethodName: PlayGameA
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -641,7 +641,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1589375453}
-        m_MethodName: PlayGameA
+        m_MethodName: PlayGameB
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
